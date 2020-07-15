@@ -1,0 +1,22 @@
+{
+  "name": "pruebawebserverolimpiait",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YesidMelo/PruebaWebServerOlimpiaIt.git"
+  },
+  "author": "Yesid Melo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YesidMelo/PruebaWebServerOlimpiaIt/issues"
+  },
+  "homepage": "https://github.com/YesidMelo/PruebaWebServerOlimpiaIt#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
