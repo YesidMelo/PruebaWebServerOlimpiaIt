@@ -15,7 +15,7 @@ app.get('/',function(solicitud, respuesta){
     respuesta.send("Hola mundo");
 });
 
-app.post('/',function(solicitud, respuesta){
+app.post('/GuardarInformacion',function(solicitud, respuesta){
     respuesta.type(formatoRespuesta)
     if(!esValidoElUsuario(solicitud,respuesta)){ return; }
     guardarEnDBUsuario(solicitud,respuesta);
